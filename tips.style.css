@@ -1,0 +1,60 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,pre, form, fieldset, table, th, td,span { margin: 0; padding: 0; }
+body {font:normal 12px/24px "微软雅黑";color:#666;/*overflow-x:hidden;*/background:#fff;) repeat center top;}
+
+.bottom-message-notice {
+    width:360px;
+    min-height:120px;
+    border:1px solid #cccccc;
+    box-shadow: 0px 0px 12px #b3b3b3;
+    position: fixed;
+    right: 0px;
+    bottom: -200px;
+    margin-top: 0px;
+}
+.bottom-message-notice h2 {
+    font-size:14px;
+    color:#444;
+    font-weight:normal;
+    padding:0 10px;
+    background:#e6e6e6;
+    height:36px;
+    line-height:36px;
+    position:relative;
+}
+.mess-notice-con {
+    font-size: 14px;
+    color:#666;
+    padding: 20px 30px 20px 30px;
+    text-align:left;
+}
+.bottom-message-notice p {
+    line-height:26px;
+    margin-left: 10px;
+}
+.mes_prompt_close{
+    position:absolute;
+    width:20px;
+    height:20px;
+    background:url("../Images/icon_notice_no.png") no-repeat center;
+    top:7px;
+    right:7px;
+    cursor: pointer;
+}
+
+
+.bottom-bounced-notice{
+    display: inline-block; 
+    width: 32px;
+    height: 32px;   
+    vertical-align:middle;
+    margin-right: 10px;
+}
+.notice_succeed{
+    background: url(../images/icon_notice_sucss.png);
+}
+.notice_fail{
+     background: url(../images/icon_notice_fail.png);
+}
+.notice_err{
+    background: url(../images/icon_notice_no.png);
+}
