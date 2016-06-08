@@ -1,11 +1,11 @@
-jquery-tips-单消息
+jquery-tips-消息提醒(单个消息版)
 ===================================
 1、引用
 ----------------------------------- 
-tips.min.js，tips.style.css
+在head中引用tips.min.js和tips.style.css
 2、使用
 ----------------------------------- 
-$(ele).creatTips(parms);<br>
+与其它使用jquery的方法一样：$(ele).creatTips(parms)，参数说明如下：
 ### parms说明：<br>
     status: "succeed",        //状态，succeed,fail,error三选一<br>
     close: 0 ,                //自动关闭时间，为0时不自动关闭<br>
